@@ -92,39 +92,32 @@ if ($result) {
     <!-- Kategori Produk -->
 
     <h1 class="txtproduk">Kategori Produk</h1>
-    <div class="container d-flex mt-5">
+    <div class="container text-center">
         <?php foreach ($result as $rw) : ?>
-            <div class="card-wrapper col-3 mx-5">
-                <div class="card-1 text-center">
+            <div class="row">
+                <div class="col">
                     <img src="img/ayam.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-                    <p class="txt">Daging Ayam</p>
+                </div>
+                <div class="col">
+                    <p class="txt"><?= $rw['nama']; ?></p>
+                </div>
+                <div class="col">
                     <p>Stock <?= $rw['stok']; ?></p>
-                    <p>Harga <?= $rw['harga']; ?></p>
+                </div>
+                <div class="col">
+                    <p>Rp. <?= $rw['harga']; ?></p>
                 </div>
             </div>
         <?php endforeach; ?>
+    </div>
+    <div class="container d-flex mt-5">
+        <div class="card-wrapper col-3 mx-5">
+            <div class="card-1 text-center">
 
-        <?php foreach ($result as $rw) : ?>
-            <div class="card-wrapper col-3 mx-5">
-                <div class="card-1 text-center">
-                    <img src="img/babi.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-                    <p class="txt">Daging Babi</p>
-                    <p>Stock <?= $rw['stok']; ?></p>
-                    <p>Harga <?= $rw['harga']; ?></p>
-                </div>
-            </div>
-        <?php endforeach; ?>
 
-        <?php foreach ($result as $rw) : ?>
-            <div class="card-wrapper col-3 mx-5">
-                <div class="card-1 text-center">
-                    <img src="img/sapi.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-                    <p class="txt">Daging Sapi</p>
-                    <p>Stock <?= $rw['stok']; ?></p>
-                    <p>Harga <?= $rw['harga']; ?></p>
-                </div>
+
             </div>
-        <?php endforeach; ?>
+        </div>
     </div>
 
 </body>
