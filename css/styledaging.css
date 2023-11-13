@@ -46,7 +46,7 @@ nav ul li a:hover {
 .foto{
     height: 100vh;
     width: 100%;
-    background-image: url('http://localhost/web-daging/img/daging.jpg');
+    background-image: url('http://localhost/tokodaging/img/daging.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
