@@ -21,9 +21,6 @@
 .bi{
     font-size: 25px;
 }
-a i{
-    text-transform: none;
-}
 @media only screen and (max-width: 600px) {
     .card-img-top{
         
