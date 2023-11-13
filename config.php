@@ -1,7 +1,7 @@
 <?php
         $username="root";
         $password="";
-        $db="crud_daging";
+        $db="mahaputra";
 
         define("DB_HOST", "localhost");
         define("DB_USER", $username);
