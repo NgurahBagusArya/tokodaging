@@ -55,13 +55,13 @@ if ($result) {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="/web-daging/daging.php">Home</a>
+                        <a class="nav-link active text-light" aria-current="page" href="daging.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="/web-daging/aboutdaging.php">About</a>
+                        <a class="nav-link text-light" href="aboutdaging.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contact Us</a>
+                        <a class="nav-link text-light" href="contact.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#">Sign In</a>
@@ -88,103 +88,99 @@ if ($result) {
             </div>
         </div>
     </div>
-    <?php foreach($result as $rw) :?>
-    <p>Nama Makanan <?= $rw['nama']; ?></p>
-    <?= $rw['stok']; ?>
-    <?= $rw['harga']; ?>
-    <img src="img/ayam.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-    <?php endforeach; ?>
-   
+
     <!-- Kategori Produk -->
 
     <h1 class="txtproduk">Kategori Produk</h1>
     <div class="container d-flex mt-5">
-    <?php foreach($result as $rw) :?>
-        <div class="card-wrapper col-3 mx-5">
-            <div class="card-1 text-center">
-            <img src="img/ayam.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-                <p class="txt">Daging Ayam</p>
-                <p>Stock <?= $rw['stok']; ?></p>
-                <p>Harga <?= $rw['harga']; ?></p>
+        <?php foreach ($result as $rw) : ?>
+            <div class="card-wrapper col-3 mx-5">
+                <div class="card-1 text-center">
+                    <img src="img/ayam.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
+                    <p class="txt">Daging Ayam</p>
+                    <p>Stock <?= $rw['stok']; ?></p>
+                    <p>Harga <?= $rw['harga']; ?></p>
+                </div>
             </div>
-        </div>
-        <?php endforeach; ?>
-    
-        <?php foreach($result as $rw) :?>
-        <div class="card-wrapper col-3 mx-5">
-            <div class="card-1 text-center">
-            <img src="img/babi.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-                <p class="txt">Daging Babi</p>
-                <p>Stock <?= $rw['stok']; ?></p>
-                <p>Harga <?= $rw['harga']; ?></p>
-            </div>
-        </div>
         <?php endforeach; ?>
 
-        <?php foreach($result as $rw) :?>
-        <div class="card-wrapper col-3 mx-5">
-            <div class="card-1 text-center">
-            <img src="img/sapi.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-                <p class="txt">Daging Sapi</p>
-                <p>Stock <?= $rw['stok']; ?></p>
-                <p>Harga <?= $rw['harga']; ?></p>
+        <?php foreach ($result as $rw) : ?>
+            <div class="card-wrapper col-3 mx-5">
+                <div class="card-1 text-center">
+                    <img src="img/babi.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
+                    <p class="txt">Daging Babi</p>
+                    <p>Stock <?= $rw['stok']; ?></p>
+                    <p>Harga <?= $rw['harga']; ?></p>
+                </div>
+            </div>
+        <?php endforeach; ?>
+
+        <?php foreach ($result as $rw) : ?>
+            <div class="card-wrapper col-3 mx-5">
+                <div class="card-1 text-center">
+                    <img src="img/sapi.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
+                    <p class="txt">Daging Sapi</p>
+                    <p>Stock <?= $rw['stok']; ?></p>
+                    <p>Harga <?= $rw['harga']; ?></p>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+
+</body>
+
+
+
+<br><br><br><br><br><br><br><br><br>
+<footer>
+    <div class="container text-center">
+        <div class="footer row px-4 justify-content-center">
+            <div class="col-4">
+                <br><br><br>
+                <ul>
+                    <li>Meat Guy</li>
+                    <br>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="daging.php">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="aboutdaging.php">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">SIGN IN</a>
+                    </li>
+                    <br><br><br><br><br>
+                </ul>
+            </div>
+            <div class="col-4">
+                <br><br><br>
+                <ul>
+                    <li>CONTACT US</li>
+                    <br>
+                    <li>Email:meatguy22@gmail.com</li>
+                    <li>0876263232542</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <br><br><br>
+                <ul>
+                    <li>Social Media</li>
+                    <br>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+
+
             </div>
         </div>
     </div>
-    <?php endforeach; ?>
-
-
-
-    <br><br><br><br><br><br><br><br><br>
-    <footer>
-        <div class="container text-center">
-            <div class="footer row px-4 justify-content-center">
-                <div class="col-4">
-                    <br><br><br>
-                    <ul>
-                        <li>Meat Guy</li>
-                        <br>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="/web-daging/daging.php">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="/web-daging/aboutdaging.php">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">CONTACT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">SIGN IN</a>
-                        </li>
-                        <br><br><br><br><br>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <br><br><br>
-                    <ul>
-                        <li>CONTACT US</li>
-                        <br>
-                        <li>Email:meatguy22@gmail.com</li>
-                        <li>0876263232542</li>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <br><br><br>
-                    <ul>
-                        <li>Social Media</li>
-                        <br>
-                        <li>Instagram</li>
-                        <li>Facebook</li>
-                    </ul>
-
-
-                </div>
-            </div>
-        </div>
-        </div>
-        <hr>
-        <div class="copyrightText d-flex justify-content-between px-1 py-1">
-            <a>Copyright © 2022 - 2023 Gadget Store</a>
-            <a>Indonesia / Indonesia</a>
-        </div>
-    </footer>
+    </div>
+    <hr>
+    <div class="copyrightText d-flex justify-content-between px-1 py-1">
+        <a>Copyright © 2022 - 2023 Gadget Store</a>
+        <a>Indonesia / Indonesia</a>
+    </div>
+</footer>
