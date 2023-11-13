@@ -15,16 +15,31 @@ include('layouts/header.php');
                         <p class="card-text">Tidak ada hal khusus yang saya miliki, yang bisa saya banggakan adalah saya tinggi</p>
                     </div>
                     <div class="d-flex justify-content-evenly p-4">
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-linkedin"></i>
-                        <i class="bi bi-envelope-fill"></i>
-                        <i class="bi bi-whatsapp"></i>
+                        <a href="#"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/dwpa.xi/"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="http://Wa.me/6289636097277"><i class="bi bi-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="img/PP2.jpg" class="card-img-top" alt="...">
+                    <img src="img/NGR.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ngurah Bagus Arya Mahaputra</h5>
+                        <p class="card-text">Ganteng, kaya, baik hati, rajin menabung, dan punya pacar cantik</p>
+                    </div>
+                    <div class="d-flex justify-content-evenly p-4">
+                        <a href="#"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/ngurahbagusaryaa/"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/Dwipa Ganzz.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Kadek Dwipa Wardana</h5>
                         <p class="card-text">Berkumis, Suka Menjahili Teman-temannya, dan beliau adalah admin sungut lele</p>
@@ -32,23 +47,8 @@ include('layouts/header.php');
                     <div class="d-flex justify-content-evenly p-4">
                         <a href="#"><i class="bi bi-facebook" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/dwikaawiraardana_/"><i class="bi bi-instagram"></i></a>
-                        <i class="bi bi-envelope-fill"></i>
-                        <i class="bi bi-whatsapp"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/PP2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Ngurah Bagus Arya Mahaputra</h5>
-                        <p class="card-text">Ganteng, giginya putih, kulitnya hitam, dan beliau adalah rival dwipa</p>
-                    </div>
-                    <div class="d-flex justify-content-evenly p-4">
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-linkedin"></i>
-                        <i class="bi bi-envelope-fill"></i>
-                        <i class="bi bi-whatsapp"></i>
+                        <a href="#"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
