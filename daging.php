@@ -64,7 +64,7 @@ if ($result) {
                         <a class="nav-link text-light" href="#">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Sign In</a>
+                        <a class="nav-link text-light" href="#">Log Out</a>
                     </li>
                 </ul>
             </div>
