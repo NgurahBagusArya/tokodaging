@@ -28,13 +28,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="/web-daging/daging.php">Home</a>
+                        <a class="nav-link active text-light" aria-current="page" href="daging.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="/web-daging/aboutdaging.php">About</a>
+                        <a class="nav-link text-light" href="aboutdaging.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contact Us</a>
+                        <a class="nav-link text-light" href="contact.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#">Sign In</a>
@@ -45,7 +45,7 @@
     </nav>
 
     <!-- about -->
-    
+
     <br><br><br><br><br>
     <div class="section">
         <div class="container mt-5">
@@ -75,10 +75,10 @@
                         <li>Meat Guy</li>
                         <br>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="/web-daging/daging.php">HOME</a>
+                            <a class="nav-link text-light" href="daging.php">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="/web-daging/aboutdaging.php">ABOUT</a>
+                            <a class="nav-link text-light" href="aboutdaging.php">ABOUT</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#">CONTACT US</a>
