@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse d-flex justify-content-end pe-5" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                            <a class="nav-link active" aria-current="page" href="daging.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="admin.php">Produk</a>
