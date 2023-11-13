@@ -15,7 +15,7 @@
            $row = mysqli_fetch_assoc($result);
            // cek password
         if ( password_verify($password, $row["password"])) {
-            header ("location: aboutdaging.php");
+            header ("location: daging.php");
             exit;
         }
        }
