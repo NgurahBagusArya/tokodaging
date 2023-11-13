@@ -9,7 +9,7 @@ include('layouts/header.php');
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
             <div class="col">
                 <div class="card">
-                    <img src="img/PP2.jpg" class="card-img-top" alt="...">
+                    <img src="img/PP2.jpg" class="card-img-top rounded-circle" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">I Kadek Dwika Wira Ardana</h5>
                         <p class="card-text">Tidak ada hal khusus yang saya miliki, yang bisa saya banggakan adalah saya tinggi</p>
@@ -24,7 +24,7 @@ include('layouts/header.php');
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="img/NGR.jpg" class="card-img-top" alt="...">
+                    <img src="img/NGR.jpg" class="card-img-top rounded-circle" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Ngurah Bagus Arya Mahaputra</h5>
                         <p class="card-text">Ganteng, kaya, baik hati, rajin menabung, dan punya pacar cantik</p>
@@ -39,7 +39,7 @@ include('layouts/header.php');
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="img/Dwipa Ganzz.jpg" class="card-img-top" alt="...">
+                    <img src="img/Dwipa Ganzz.jpg" class="card-img-top rounded-circle" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Kadek Dwipa Wardana</h5>
                         <p class="card-text">Berkumis, Suka Menjahili Teman-temannya, dan beliau adalah admin sungut lele</p>
