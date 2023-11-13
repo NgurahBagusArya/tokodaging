@@ -5,10 +5,9 @@ require 'function.php';
 if (isset($_POST["register"])) {
 
     if (registrasi($_POST) > 0) {
-        header ('Location: login.php');
+        header('Location: login.php');
     } else {
         echo mysqli_error($conn);
-
     }
 }
 
@@ -37,69 +36,46 @@ if (isset($_POST["register"])) {
 </head>
 
 <body class="bg-gradient-primary">
-
     <form action="" method="post">
-
         <div class="container">
-
             <div class="card o-hidden border-0 shadow-lg my-5">
-
-
-
                 <div class="card-body p-0">
                     <!-- Nested Row within Card Body -->
                     <div class="row justify-content-center">
-
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 align-self-center">
                             <img class="w-100" src="img/gambar.png" alt="" styles="">
                         </div>
-
                         <div class="col-lg-7">
                             <div class="p-5">
                                 <div class="text-center">
                                     <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
-
-                                    <!-- memasukan gambar -->
-
                                     <form class="user">
-
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user" id="nama" name="nama" placeholder="Nama lengkap" require>
                                         </div>
-
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user" id="no_telp" name="no_telp" placeholder="No telp" require>
                                         </div>
-
                                         <div class="form-group">
                                             <div class="form-group">
                                                 <input type="email" class="form-control form-control-user" id="exampleInputEmail" name="email" placeholder="Email" require>
                                             </div>
                                         </div>
-
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user" id="exampleInputEmail" name="password" placeholder="Password" require>
                                         </div>
-
                                         <button type="submit" name="register" class="btn btn-primary">Submit</button>
-
-                                        
                                         <hr>
                                         <div class="inputBx-input">
-                                            <p>Have An Account? <a href="./login.php">Login</a></p>
+                                            <p>Have An Account? <a href="login.php">Login</a></p>
                                         </div>
-
                                     </form>
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-
             <!-- Bootstrap core JavaScript-->
             <script src="vendor/jquery/jquery.min.js"></script>
             <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -109,6 +85,7 @@ if (isset($_POST["register"])) {
 
             <!-- Custom scripts for all pages-->
             <script src="js/sb-admin-2.min.js"></script>
+        </div>
     </form>
 
 </body>
