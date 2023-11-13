@@ -21,17 +21,7 @@
 .bi{
     font-size: 25px;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-ai{
-    tex
-=======
-a i{
-    text-transform: none;
->>>>>>> 0f64fc72a512bc733aed2e3aa216041526b29104
-}
->>>>>>> 017cb84a4c9ae0b11331e4e0c3e21933a6ca188d
+
 @media only screen and (max-width: 600px) {
     .card-img-top{
         
