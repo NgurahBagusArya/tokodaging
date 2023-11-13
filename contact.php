@@ -33,7 +33,7 @@ include('layouts/header.php');
                         <a href="#"><i class="bi bi-facebook" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/ngurahbagusaryaa/"><i class="bi bi-instagram"></i></a>
                         <a href="#"><i class="bi bi-envelope-fill"></i></a>
-                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#"><i class="https://Wa.me/6287777452184"></i></a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ include('layouts/header.php');
                         <a href="#"><i class="bi bi-facebook" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/dwikaawiraardana_/"><i class="bi bi-instagram"></i></a>
                         <a href="#"><i class="bi bi-envelope-fill"></i></a>
-                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#"><i class="https://Wa.me/62895623321311"></i></a>
                     </div>
                 </div>
             </div>
