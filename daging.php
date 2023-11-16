@@ -49,9 +49,7 @@ if ($result) {
                 <select class="form-select" aria-label="Default select example">
                 </select>
             </button>
-
             <!-- navbar -->
-
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -70,10 +68,7 @@ if ($result) {
             </div>
         </div>
     </nav>
-
-
     <!-- background -->
-
     <div class="background">
         <div class="foto">
             <div class="container">
@@ -88,9 +83,7 @@ if ($result) {
             </div>
         </div>
     </div>
-
     <!-- Kategori Produk -->
-
     <h1 class="txtproduk">Kategori Produk</h1>
     <div class="container text-center">
         <?php foreach ($result as $rw) : ?>
@@ -113,17 +106,10 @@ if ($result) {
     <div class="container d-flex mt-5">
         <div class="card-wrapper col-3 mx-5">
             <div class="card-1 text-center">
-
-
-
             </div>
         </div>
     </div>
-
 </body>
-
-
-
 <br><br><br><br><br><br><br><br><br>
 <footer>
     <div class="container text-center">
@@ -165,8 +151,6 @@ if ($result) {
                     <li>Instagram</li>
                     <li>Facebook</li>
                 </ul>
-
-
             </div>
         </div>
     </div>

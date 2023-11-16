@@ -1,7 +1,6 @@
 <?php
 //include atau panggil header.php yang ada difolder layouts
 include('layouts/header.php');
-
 ?>
 <div class="container">
     <div class="card mt-3">
