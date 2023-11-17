@@ -49,9 +49,7 @@ if ($result) {
                 <select class="form-select" aria-label="Default select example">
                 </select>
             </button>
-
             <!-- navbar -->
-
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -70,10 +68,7 @@ if ($result) {
             </div>
         </div>
     </nav>
-
-
     <!-- background -->
-
     <div class="background">
         <div class="foto">
             <div class="container">
@@ -88,49 +83,33 @@ if ($result) {
             </div>
         </div>
     </div>
-
     <!-- Kategori Produk -->
-
     <h1 class="txtproduk">Kategori Produk</h1>
-    <div class="container d-flex mt-5">
+    <div class="container text-center">
         <?php foreach ($result as $rw) : ?>
-            <div class="card-wrapper col-3 mx-5">
-                <div class="card-1 text-center">
+            <div class="row">
+                <div class="col">
                     <img src="img/ayam.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-                    <p class="txt">Daging Ayam</p>
-                    <p>Stock <?= $rw['stok']; ?></p>
-                    <p>Harga <?= $rw['harga']; ?></p>
                 </div>
-            </div>
-        <?php endforeach; ?>
-
-        <?php foreach ($result as $rw) : ?>
-            <div class="card-wrapper col-3 mx-5">
-                <div class="card-1 text-center">
-                    <img src="img/babi.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-                    <p class="txt">Daging Babi</p>
-                    <p>Stock <?= $rw['stok']; ?></p>
-                    <p>Harga <?= $rw['harga']; ?></p>
+                <div class="col">
+                    <p class="txt"><?= $rw['nama']; ?></p>
                 </div>
-            </div>
-        <?php endforeach; ?>
-
-        <?php foreach ($result as $rw) : ?>
-            <div class="card-wrapper col-3 mx-5">
-                <div class="card-1 text-center">
-                    <img src="img/sapi.jpg?= $rw['foto']; ?>" style="width:200px;" alt="">
-                    <p class="txt">Daging Sapi</p>
+                <div class="col">
                     <p>Stock <?= $rw['stok']; ?></p>
-                    <p>Harga <?= $rw['harga']; ?></p>
+                </div>
+                <div class="col">
+                    <p>Rp. <?= $rw['harga']; ?></p>
                 </div>
             </div>
         <?php endforeach; ?>
     </div>
-
+    <div class="container d-flex mt-5">
+        <div class="card-wrapper col-3 mx-5">
+            <div class="card-1 text-center">
+            </div>
+        </div>
+    </div>
 </body>
-
-
-
 <br><br><br><br><br><br><br><br><br>
 <footer>
     <div class="container text-center">
@@ -172,8 +151,6 @@ if ($result) {
                     <li>Instagram</li>
                     <li>Facebook</li>
                 </ul>
-
-
             </div>
         </div>
     </div>

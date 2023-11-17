@@ -7,8 +7,8 @@ include('layouts/header.php');
 	<div class="card mt-3">
 		<div class="card-header">
 			<div class="modal-header">
-				<h1 class="modal-title fs-4" id="exampleModalLabel">Edit</h1>
-				<a class="btn btn-primary" href="index.php" role="button">Kembali</a>
+				<h2 class="modal-title fs-4" id="exampleModalLabel">Edit</h2>
+				<a class="btn btn-primary" href="admin.php" role="button">Kembali</a>
 			</div>
 		</div>
 		<div class="card-body">

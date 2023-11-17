@@ -1,13 +1,12 @@
 <?php
 //include atau panggil header.php yang ada difolder layouts
 include('layouts/header.php');
-
 ?>
 <div class="container">
     <div class="card mt-3">
         <div class="card-header">
             <div class="modal-header">
-                <h1 class="modal-title fs-4" id="exampleModalLabel">Meat Guy</h1>
+                <h2 class="modal-title fs-4" id="exampleModalLabel">Meat Guy</h2>
                 <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Tambah</button>
             </div>
         </div>
@@ -146,15 +145,11 @@ include('layouts/header.php');
                             </tr>
                         <?php $no++;
                         } ?>
-
                     <?php } else { ?>
-
                         <tr>
                             <td colspan="7">Data belum ada.</td>
                         </tr>
-
                     <?php } ?>
-
                 </tbody>
             </table>
         </div>
