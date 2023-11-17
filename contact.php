@@ -27,7 +27,7 @@ include('layouts/header.php');
                 <img src="img/NGR.jpg" class="card-img-top rounded-circle" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Ngurah Bagus Arya Mahaputra</h5>
-                    <p class="card-text">Ganteng, kaya, baik hati, rajin menabung, dan punya pacar cantik</p>
+                    <p class="card-text">Ganteng, kaya, punya pacar cantik, tapi selingkuhanku ganteng, kalian kenal saya?</p>
                 </div>
                 <div class="d-flex justify-content-evenly p-4">
                     <a href="#"><i class="bi bi-facebook" aria-hidden="true"></i></a>

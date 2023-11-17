@@ -17,10 +17,10 @@
                         <a class="nav-link text-light" href="aboutdaging.php">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">CONTACT US</a>
+                        <a class="nav-link text-light" href="contact.php">CONTACT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">SIGN IN</a>
+                        <a class="nav-link text-light" href="login.php">SIGN IN</a>
                     </li>
                     <br><br><br><br><br>
                 </ul>
