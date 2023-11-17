@@ -150,7 +150,7 @@ if ($result) {
                         <a class="nav-link text-light" href="#">CONTACT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">SIGN IN</a>
+                        <a class="nav-link text-light" href="#">Log Out</a>
                     </li>
                     <br><br><br><br><br>
                 </ul>
