@@ -3,7 +3,7 @@
 $server 	= "localhost";
 $username	= "root";
 $pass		= "";
-$db 		= "crud";
+$db 		= "mahaputra";
 $koneksi = mysqli_connect($server, $username, $pass, $db);
 
 //untuk cek jika koneksi gagal ke database
